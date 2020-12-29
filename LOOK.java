@@ -1,4 +1,7 @@
+
+
 import java.util.*;
+
 
 class LOOK {
 	
@@ -28,7 +31,7 @@ public LOOK(int arr[], int head,String direction)
 	int run = 2; 
 	while (run-- > 0)
 	{ 
-		if (direction == "left") 
+		if ("left".equals(direction)) 
 		{ 
 			for(int i = left.size() - 1; 
 					i >= 0; i--)
